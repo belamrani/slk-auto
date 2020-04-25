@@ -14,8 +14,6 @@ sections:
   label: Voitures
   create: all
   match: "**/*"
-  templates:
-  - blog
 - type: directory
   path: content/blog-posts
   label: Blog posts
