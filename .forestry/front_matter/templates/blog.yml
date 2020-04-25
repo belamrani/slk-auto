@@ -6,19 +6,6 @@ fields:
   name: title
   label: Title
   default: default
-- name: author
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: authors-list
-      file: content/data/authors.yaml
-      path: authors
-  label: Author
-  description: Choose author here, add new authors in Authors List
 - type: datetime
   name: date
   label: Date
@@ -30,6 +17,29 @@ fields:
 - type: file
   name: hero
   label: Hero Image
+- name: etat
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Neuve
+    - Occasion
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Etat
+- name: annee
+  type: datetime
+  label: Année
+  description: ''
+  config:
+    required: true
+    date_format: YYYY
+    time_format: 
+    display_utc: false
 pages:
 - content/blog-posts/Walking.md
 - content/blog-posts/geneology-of-morals.md
