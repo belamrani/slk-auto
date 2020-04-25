@@ -10,6 +10,13 @@ sections:
   path: content/about/info.md
   label: Info Page
 - type: directory
+  path: content/voiture-annonces
+  label: Voitures
+  create: all
+  match: "**/*"
+  templates:
+  - blog
+- type: directory
   path: content/blog-posts
   label: Blog posts
   create: all
