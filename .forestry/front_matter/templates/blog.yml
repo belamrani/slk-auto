@@ -41,8 +41,4 @@ fields:
     time_format: 
     display_utc: false
 pages:
-- content/blog-posts/Walking.md
-- content/blog-posts/geneology-of-morals.md
-- content/blog-posts/self-reliance.md
-- content/blog-posts/sunflower-sutra.md
 - content/voiture-annonces/megane-3.md
