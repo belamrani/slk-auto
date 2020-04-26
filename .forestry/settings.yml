@@ -24,7 +24,7 @@ sections:
 - type: document
   path: config.toml
   label: Site Config
-upload_dir: static/img
+upload_dir: static/img/carousel
 public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
